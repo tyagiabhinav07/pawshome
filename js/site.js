@@ -1,0 +1,1 @@
+function filterPets(){const v=document.getElementById('category').value;document.querySelectorAll('[data-kind]').forEach(c=>c.hidden=v!=='all'&&c.dataset.kind!==v)}function submitDemo(e){e.preventDefault();const s=document.getElementById('status');s.textContent='Thanks! Your details are ready, but this demo has no server, so nothing was sent or stored.';return false}
